@@ -10,6 +10,7 @@ if ($result_view = mysqli_query($conn, $sql_view))
 
 if(isset($_POST['edit']))
 {
+	
 	$target = "../upload/";
 	$target = $target.basename($_FILES['picture']['name']);
 	
